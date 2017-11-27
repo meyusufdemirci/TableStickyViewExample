@@ -1,4 +1,4 @@
-![Demo](https://giphy.com/gifs/3osBLtqx3c8GZu6FMI/html5)
+![Demo](https://media.giphy.com/media/3osBLtqx3c8GZu6FMI/giphy.gif)
 
 ## Usage
 
