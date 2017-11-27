@@ -12,6 +12,10 @@
 		C9B248C11FCB067A00F56D70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9B248BF1FCB067A00F56D70 /* Main.storyboard */; };
 		C9B248C31FCB067A00F56D70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9B248C21FCB067A00F56D70 /* Assets.xcassets */; };
 		C9B248C61FCB067A00F56D70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9B248C41FCB067A00F56D70 /* LaunchScreen.storyboard */; };
+		C9B248CE1FCB09B900F56D70 /* StickyHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B248CD1FCB09B900F56D70 /* StickyHeader.swift */; };
+		C9B248D01FCB09D400F56D70 /* StickyHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B248CF1FCB09D400F56D70 /* StickyHeaderView.swift */; };
+		C9B248D31FCB09FE00F56D70 /* MyHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B248D21FCB09FE00F56D70 /* MyHeaderView.swift */; };
+		C9B248D51FCB0A1700F56D70 /* MyHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9B248D41FCB0A1700F56D70 /* MyHeaderView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		C9B248C21FCB067A00F56D70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C9B248C51FCB067A00F56D70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C9B248C71FCB067A00F56D70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9B248CD1FCB09B900F56D70 /* StickyHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickyHeader.swift; sourceTree = "<group>"; };
+		C9B248CF1FCB09D400F56D70 /* StickyHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickyHeaderView.swift; sourceTree = "<group>"; };
+		C9B248D21FCB09FE00F56D70 /* MyHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHeaderView.swift; sourceTree = "<group>"; };
+		C9B248D41FCB0A1700F56D70 /* MyHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyHeaderView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +62,26 @@
 		C9B248BA1FCB067A00F56D70 /* TableStickyViewExample */ = {
 			isa = PBXGroup;
 			children = (
+				C9B248D11FCB09DA00F56D70 /* sticky header */,
 				C9B248BB1FCB067A00F56D70 /* AppDelegate.swift */,
 				C9B248BD1FCB067A00F56D70 /* ViewController.swift */,
 				C9B248BF1FCB067A00F56D70 /* Main.storyboard */,
 				C9B248C21FCB067A00F56D70 /* Assets.xcassets */,
 				C9B248C41FCB067A00F56D70 /* LaunchScreen.storyboard */,
 				C9B248C71FCB067A00F56D70 /* Info.plist */,
+				C9B248D21FCB09FE00F56D70 /* MyHeaderView.swift */,
+				C9B248D41FCB0A1700F56D70 /* MyHeaderView.xib */,
 			);
 			path = TableStickyViewExample;
+			sourceTree = "<group>";
+		};
+		C9B248D11FCB09DA00F56D70 /* sticky header */ = {
+			isa = PBXGroup;
+			children = (
+				C9B248CD1FCB09B900F56D70 /* StickyHeader.swift */,
+				C9B248CF1FCB09D400F56D70 /* StickyHeaderView.swift */,
+			);
+			path = "sticky header";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +146,7 @@
 				C9B248C61FCB067A00F56D70 /* LaunchScreen.storyboard in Resources */,
 				C9B248C31FCB067A00F56D70 /* Assets.xcassets in Resources */,
 				C9B248C11FCB067A00F56D70 /* Main.storyboard in Resources */,
+				C9B248D51FCB0A1700F56D70 /* MyHeaderView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +157,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9B248D31FCB09FE00F56D70 /* MyHeaderView.swift in Sources */,
+				C9B248D01FCB09D400F56D70 /* StickyHeaderView.swift in Sources */,
+				C9B248CE1FCB09B900F56D70 /* StickyHeader.swift in Sources */,
 				C9B248BE1FCB067A00F56D70 /* ViewController.swift in Sources */,
 				C9B248BC1FCB067A00F56D70 /* AppDelegate.swift in Sources */,
 			);
