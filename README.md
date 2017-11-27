@@ -1,4 +1,6 @@
-[Demo](https://media.giphy.com/media/3osBLtqx3c8GZu6FMI/giphy.gif)
+# Table Sticky View
+
+![Demo](https://media.giphy.com/media/3osBLtqx3c8GZu6FMI/giphy.gif)
 
 ## Usage
 
