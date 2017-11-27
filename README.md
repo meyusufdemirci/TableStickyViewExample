@@ -2,9 +2,9 @@
 
 ## Usage
 
-Add this 2 classes to your project
+#### Add this 2 classes to your project
 
-#### StickyHeader
+##### StickyHeader
 
 ```sh
 public class StickyHeader: NSObject {
@@ -153,7 +153,7 @@ public class StickyHeader: NSObject {
 }
 ```
 
-#### StickyHeaderView
+##### StickyHeaderView
 
 ```sh
 internal class StickyHeaderView: UIView {
@@ -175,9 +175,9 @@ internal class StickyHeaderView: UIView {
 }
 ```
 
-And extensin
+#### And extension
 
-#### UIScrollViewExtensin
+##### UIScrollViewExtension
 
 ```sh
 private var xoStickyHeaderKey: UInt8 = 0
@@ -199,7 +199,7 @@ extension UIScrollView {
 }
 ```
 
-Integration
+#### Integration
 
 ```sh
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
